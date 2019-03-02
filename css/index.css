@@ -196,7 +196,6 @@
     font-size: 20px;
     font-family: Adobe Garamond Pro Bold;
     margin-top: 5px;
-
 }
 
 #headercontent {
@@ -209,7 +208,6 @@
     background-color: darkslategray;
     text-transform: uppercase;
     color: aliceblue;
-    font-size: 35px;
 }
 
 #modalbodyy {
@@ -223,93 +221,115 @@
     color: aliceblue;
 }
 
-#headerlogo {
-    margin-top: 5px;
-    width: 150px;
-    height: 70px;
-    margin-left: 30px;
-    margin-bottom: 5px;
-}
-
-#headerlogom {
-    width: 100px;
-    height: 45px;
-}
-
 #developpic {
     width: 150px;
     height: 150px;
     border-radius: 50%;
 }
 
-#headerinfolinem {
-    font-family: Adobe Garamond Pro Bold;
-    background-color: darkslategray;
-    text-transform: uppercase;
-    color: aliceblue;
-}
-
 #smsmsg {
     display: none;
 }
 
-/*        Small Screen*/
+/*Small Screen*/
 @media only screen and (max-width: 399px) {
-    #dcarousel {
-        margin-top: 100px;
-    }
-
     #mframe iframe {
         margin: 10px 0px;
         width: 290px;
         height: 180px;
     }
+    #headerinfoline1{
+        font-size: 14px;
+    } 
+    #headerinfoline{
+    font-size: 12px;
+    }
+    #headerlogo {
+    width: 100px;
+    height: 45px;
+    }
+
 }
 
 /*--------Mobile-------*/
 @media only screen and (min-width: 400px) {
-    #dcarousel {
-        margin-top: 100px;
-    }
-
-    #mframe iframe {
+      #mframe iframe {
         width: 350px;
         height: 180px;
+    }
+    #headerinfoline1, 
+    #headerinfoline{
+    font-size: 18px;
+    }
+    #headerlogo {
+    width: 100px;
+    height: 45px;
     }
 }
 
 /*-------IPad-----*/
 @media only screen and (min-width: 600px) {
-    #dcarousel {
-        margin-top: 105px;
-    }
-
     #mframe iframe {
         width: 700px;
         height: 200px;
+    }
+    #headerinfoline1, 
+    #headerinfoline{
+    font-size: 24px;
+    }
+    #headerlogo {
+    width: 120px;
+    height: 55px;
     }
 }
 
 /*-----Tablet-----*/
 @media only screen and (min-width: 1024px) {
-    #dcarousel {
-        margin-top: 150px;
-    }
-
-    #mframe iframe {
+     #mframe iframe {
         width: 950px;
         height: 250px;
+    }
+    #headerinfoline1{
+       font-size: 32px; 
+    } 
+    #headerinfoline{
+    font-size: 20px;
+    }
+    #headerlogo {
+    width: 140px;
+    height: 75px;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    }
+    .nav-item:first-child{
+        margin-left: 25px;        
     }
 }
 
 /*----------Laptop-------------*/
 @media only screen and (min-width: 1200px) {
-    #dcarousel {
+    #icarousel{
         margin-top: 120px;
     }
-
     #mframe iframe {
         width: 1450px;
         height: 300px;
+    }
+    #headerinfoline{
+        font-size: 22px;
+    }
+    #headerinfoline1 {
+    font-size: 35px;
+    }
+    .nav-item:first-child{
+        margin-left: 230px;        
+    }
+    #headerlogo {
+    width: 150px;
+    height: 70px;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-bottom: 5px;
     }
 }

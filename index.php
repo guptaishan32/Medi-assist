@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -54,74 +53,24 @@
 </head>
 
 <body class="body" ng-app="app" ng-controller="mycontroller" ng-init="reload(true)">
-    <!--Desktop Version-->
     <div class="fixed-top">
-        <div id="headerinfoline1">
+     <div id="headerinfoline1">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm-2 d-none d-sm-block">
+                    <div class="col-4 col-sm-2" style="margin-top:4px">
                         <center>
                             <a href="index.php"><img src="pics/4%20png.png" id="headerlogo"></a>
                         </center>
                     </div>
-                    <div class="col-sm-10 d-none d-sm-block" style="margin-top:10px">
-                        <center>
-                            Welcome to MEDI-ASSIST
-                        </center>
+                    <div class="col-8 col-sm-10" style="margin-top:15px">
+                           <center>
+                                Welcome to MEDI-ASSIST
+                            </center>
                     </div>
                 </div>
             </div>
         </div>
-
-        <!--Desktop Version navbar-->
-        <div id="headerinfoline">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-3 d-sm-none d-none d-lg-block">
-                        <div class="d-flex btn-sm">
-                            <div> <button class="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#signup">SIGNUP</button></div>&emsp;
-                            <div> <button class="btn btn-success" href="#" role="button" data-toggle="modal" data-target="#login">LOGIN</button></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-auto col-xl-6 d-none d-lg-block d-lg-inline-flex justify-content-center" id="headernav" style="margin-top:10px">
-                        <div><a href="#services" class="col-sm-auto" id="headercontent">OUR SERVICES</a></div>
-                        <div><a href="#aboutus" class="col-sm-auto" id="headercontent">ABOUT US</a></div>
-                        <div><a href="#contact" class="col-sm-auto" id="headercontent">CONTACT US</a></div>
-                    </div>
-                    <!--Navbar-->
-                    <div class="col-lg-auto col-xl-3 d-sm-none d-none d-lg-block float-left">
-                        <nav class="navbar float-right">
-                            <form class="form-inline">
-                                <input class="form-control" placeholder="Search Doctor" ng-model="hint" aria-label="Search">
-                                <button class="btn btn-primary" type="submit" ng-click="doFetchJson();" data-toggle="modal" data-target="#doctorsearch">Search</button>
-                            </form>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--Mobile Version-->
-    <div class="fixed-top">
-        <div id="headerinfolinem">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-4 d-block d-lg-none" style="margin-top:4px">
-                        <center>
-                            <a href="index.php"><img src="pics/4%20png.png" id="headerlogom"></a>
-                        </center>
-                    </div>
-                    <div class="col-8 d-block d-lg-none float-right" style="margin-top:7px">
-                        <center>
-                            <h4>MEDI-ASSIST</h4>
-                        </center>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--Mobile Version navbar-->
-        <div class="col-12 d-block d-lg-none" id="headerinfoline">
+    <div id="headerinfoline">
             <nav class="navbar navbar-expand-lg navbar-light">
                <div>
                 <button class="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#signup">SIGNUP</button>
@@ -133,13 +82,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <div><a href="#services" class="col-sm-auto" id="headercontent1">OUR SERVICES</a></div>
+                            <div><a href="#services" class="col-sm-auto" id="headercontent">OUR SERVICES</a></div>
                         </li>
                         <li class="nav-item">
-                            <div><a href="#aboutus" class="col-sm-auto" id="headercontent1">ABOUT US</a></div>
+                            <div><a href="#aboutus" class="col-sm-auto" id="headercontent">ABOUT US</a></div>
                         </li>
                         <li class="nav-item">
-                            <div><a href="#contact" class="col-sm-auto" id="headercontent1">CONTACT US</a></div>
+                            <div><a href="#contact" class="col-sm-auto" id="headercontent">CONTACT US</a></div>
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
@@ -150,10 +99,8 @@
             </nav>
         </div>
     </div>
-
-
     <!--Carousel-->
-    <div id="dcarousel">
+       <div id="icarousel">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -189,8 +136,7 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-    </div>
-
+        </div>
     <br>
     <!--Services-->
     <div id=services>
