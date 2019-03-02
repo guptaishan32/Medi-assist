@@ -1,0 +1,31 @@
+#cardimg
+{
+    width:150px;
+    height:150px;
+    /*border:2px black solid;*/
+    margin-top: 10px;
+    background-size: contain;
+}
+
+#modalimg
+{
+    width:100px;
+    height:100px;
+    /*border:2px black solid;*/
+    border-radius: 50%;
+    margin-top: 10px;
+    background-size: contain;
+    object-position: center
+}
+/*#sugarcard:hover
+{
+    opacity: 0.3;
+    background-color: ghostwhite;
+    color: darkslateblue;
+}*/
+
+#sugarcard
+{
+    border:0px white;
+    box-shadow: 2px 2px 2px;
+}

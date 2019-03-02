@@ -1,0 +1,49 @@
+#headerinfolinem
+{
+           font-family: Adobe Garamond Pro Bold;
+    background-color:darkslategray;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+#headerlogo
+{
+    width: 150px;
+    height: 70px;
+    margin-left: 30px;
+}
+#headerlogom
+{
+    width: 100px;
+    height: 45px;
+}
+
+#headerinfoline1
+{
+        font-family: Adobe Garamond Pro Bold;
+    background-color:darkslategray;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+#headerid
+{
+    font-family: Adobe Garamond Pro Bold;
+    text-transform: uppercase;
+    color: floralwhite;
+    font-size: 20px;
+    text-decoration: none;
+}
+#headername
+{
+        font-family: Adobe Garamond Pro Bold;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: 40px;
+}
+#headerinfoline
+{
+    font-family: Adobe Garamond Pro Bold;
+    background-color: cadetblue;
+    text-transform: uppercase;
+    color: skyblue;
+}

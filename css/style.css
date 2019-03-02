@@ -1,0 +1,76 @@
+#cardimg
+{
+    width:150px;
+    height:150px;
+    /*border:2px black solid;*/
+    margin-top: 10px;
+    background-size: contain;
+}
+
+#modalimg
+{
+    width:100px;
+    height:100px;
+    /*border:2px black solid;*/
+    border-radius: 50%;
+    margin-top: 10px;
+    background-size: contain;
+    object-position: center
+}
+
+
+#card
+{
+    border:1px grey;
+    box-shadow: 5px 5px 40px grey;
+}
+#card:hover
+{
+    opacity: 0.8;
+    box-shadow: -5px -5px 40px grey;
+}
+
+#cardtitle
+{
+    font-family: Footlight MT Light;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.body
+{
+    background-color: aliceblue;
+}
+#cardpara
+{
+    font-family: Script MT;
+    font-size: 20px;
+}
+
+.modalcolor
+{
+    background-color: lightblue;
+    font-family:  Adobe Garamond Pro Bold;
+    font-weight: bold;
+    font-size:20px;
+    text-transform: uppercase;
+}
+.modalbodyy
+{
+   background-color: aliceblue;  
+}
+
+.modalheadings
+{
+     font-family:  Adobe Garamond Pro Bold;
+    text-transform: uppercase;
+}
+.modelcontent
+{
+    font-family:  Adobe Garamond Pro Bold;
+}
+.modalbutton
+{
+    font-family:  Adobe Garamond Pro Bold;
+    color: white;
+}

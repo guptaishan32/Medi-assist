@@ -1,0 +1,41 @@
+#infolines
+{
+    font-size:25px;
+    font-family: Adobe Garamond Pro Bold;
+    background-color: cadetblue;
+    text-transform: uppercase;
+    color: white;
+}
+
+#infolines:hover
+{
+    background-color: skyblue;
+    color: cadetblue;
+}
+
+#tableheading
+{
+    font-family:  Adobe Garamond Pro Bold;
+    font-size:19px;
+    text-transform: uppercase;
+}
+#tablecontent
+{
+    font-family:  Adobe Garamond Pro Bold;
+    font-size:15px;
+    text-transform: uppercase;
+}
+#tableinfolines
+{
+    font-size:20px;
+    font-family:  Adobe Garamond Pro Bold;
+    text-transform: uppercase;
+    color:dodgerblue;
+    background-color: azure;
+}
+#copyright
+{
+    font-size:20px;
+    font-family:  Adobe Garamond Pro Bold;
+    color:black;
+}
