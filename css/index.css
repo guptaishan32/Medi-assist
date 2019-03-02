@@ -1,9 +1,10 @@
-#showpwd , #waitt
-{
+#showpwd,
+#waitt {
     display: none;
 }
+
 #message {
-    display:none;
+    display: none;
     background: #f1f1f1;
     color: #000;
     position: relative;
@@ -14,13 +15,13 @@
 .valid {
     color: green;
 }
+
 /*#messagepwd
 {
     display: none;
 }*/
 
-.ok
-{
+.ok {
     background-image: url(../pics/Tick.png);
     background-size: contain;
     width: 20px;
@@ -28,97 +29,94 @@
     background-repeat: no-repeat;
 }
 
-#signupshow
-{
-    display: none;
-}
- #signupsubmit
-{
+#signupshow {
     display: none;
 }
 
-.servicescardsimg
-{
-   opacity: 1; 
+#signupsubmit {
+    display: none;
+}
+
+.servicescardsimg {
+    opacity: 1;
     height: 170px;
 }
-.body 
-{
+
+.body {
     background-color: aliceblue;
 }
-#card
-{
-    border:1px grey;
+
+#card {
+    border: 1px grey;
     box-shadow: 10px 10px 50px grey;
     background-color: ghostwhite;
     transition: ease all 1s;
 }
-#card:hover
-{
+
+#card:hover {
     box-shadow: -10px -10px 50px grey;
     color: aliceblue;
     transition: ease all 1s;
 }
-#card:hover  #cardtitle
-{
+
+#card:hover #cardtitle {
     display: none;
 }
-#card:hover  #cardpara
-{
+
+#card:hover #cardpara {
     display: block;
 }
-#cardimg1
-{
-    width:150px;
-    height:150px;
+
+#cardimg1 {
+    width: 150px;
+    height: 150px;
     /*border:2px black solid;*/
     margin-top: 10px;
     background-size: contain;
     display: block;
     transition: ease all 1s;
 }
-#cardimg2
-{
+
+#cardimg2 {
     display: none;
-    height:150px;
+    height: 150px;
 }
-#card:hover #cardimg1 
-{ 
+
+#card:hover #cardimg1 {
     display: none;
-    transition: ease all 1s;
-}
-#card:hover #highcharts 
-{ 
-    opacity: 0.5;
-    transition: ease all 1s;
-}
-#card:hover #cardimg2
-{ 
-    display:block;
     transition: ease all 1s;
 }
 
-#cardtitle
-{
+#card:hover #highcharts {
+    opacity: 0.5;
+    transition: ease all 1s;
+}
+
+#card:hover #cardimg2 {
+    display: block;
+    transition: ease all 1s;
+}
+
+#cardtitle {
     font-family: Adobe Garamond Pro Bold;
     text-transform: uppercase;
     font-weight: bold;
     display: block;
     font-size: 30px;
 }
-#cardpara
-{
+
+#cardpara {
     font-family: Adobe Garamond Pro;
     font-size: 20px;
     display: none;
 }
-#card:hover #cardbody
-{
+
+#card:hover #cardbody {
     opacity: 0.8;
     background-color: black;
 }
-#highcharts
-{
+
+#highcharts {
     /*border:2px black solid;*/
     margin-top: 55px;
     background-size: contain;
@@ -126,137 +124,192 @@
     transition: ease all 1s;
 }
 
-#infolines
-{
-    font-size:25px;
+#infolines {
+    font-size: 25px;
     font-family: Adobe Garamond Pro Bold;
     background-color: cadetblue;
     text-transform: uppercase;
     color: white;
 }
 
-#infolines:hover
-{
+#infolines:hover {
     background-color: skyblue;
     color: cadetblue;
 }
 
-#tableheading
-{
-    font-family:  Adobe Garamond Pro Bold;
-    font-size:19px;
+#tableheading {
+    font-family: Adobe Garamond Pro Bold;
+    font-size: 19px;
     text-transform: uppercase;
 }
-#tablecontent
-{
-    font-family:  Adobe Garamond Pro Bold;
-    font-size:15px;
+
+#tablecontent {
+    font-family: Adobe Garamond Pro Bold;
+    font-size: 15px;
     text-transform: uppercase;
 }
-#tableinfolines
-{
-    font-size:20px;
-    font-family:  Adobe Garamond Pro Bold;
+
+#tableinfolines {
+    font-size: 20px;
+    font-family: Adobe Garamond Pro Bold;
     text-transform: uppercase;
-    color:dodgerblue;
+    color: dodgerblue;
     background-color: azure;
 }
-#copyright
-{
-     font-size:20px;
-    font-family:  Adobe Garamond Pro Bold;
-    color:black;
+
+#copyright {
+    font-size: 20px;
+    font-family: Adobe Garamond Pro Bold;
+    color: black;
     background-color: azure;
 }
-#cardimg3
-{
-    width:100px;
-    height:100px;
+
+#cardimg3 {
+    width: 100px;
+    height: 100px;
     /*border:2px black solid;*/
     margin-top: 10px;
     background-size: contain;
     border-radius: 50%;
 }
-#searchbody
-{
-    font-size:15px;
-    font-family:  Adobe Garamond Pro Bold;
+
+#searchbody {
+    font-size: 15px;
+    font-family: Adobe Garamond Pro Bold;
 }
 
-#card1
-{
-        border:1px grey;
+#card1 {
+    border: 1px grey;
     box-shadow: 10px 10px 50px grey;
     background-color: ghostwhite;
     transition: ease all 1s;
 }
-#headerinfoline
-{
+
+#headerinfoline {
     font-family: Adobe Garamond Pro Bold;
     background-color: cadetblue;
     text-transform: uppercase;
     color: skyblue;
 }
-#headernav
-{
+
+#headernav {
     font-size: 20px;
     font-family: Adobe Garamond Pro Bold;
     margin-top: 5px;
-    
+
 }
 
-#headercontent
-{
+#headercontent {
     text-decoration: none;
-    color:aliceblue;
+    color: aliceblue;
 }
-#headerinfoline1
-{
-        font-family: Adobe Garamond Pro Bold;
-    background-color:darkslategray;
+
+#headerinfoline1 {
+    font-family: Adobe Garamond Pro Bold;
+    background-color: darkslategray;
     text-transform: uppercase;
     color: aliceblue;
     font-size: 35px;
 }
 
-#modalbodyy
-{
-        font-family: Adobe Garamond Pro Bold;
+#modalbodyy {
+    font-family: Adobe Garamond Pro Bold;
     text-transform: uppercase;
 }
-#headercontent1
-{
+
+#headercontent1 {
     text-decoration: none;
     font-weight: bold;
     color: aliceblue;
 }
-#headerlogo
-{
+
+#headerlogo {
     margin-top: 5px;
     width: 150px;
     height: 70px;
     margin-left: 30px;
     margin-bottom: 5px;
 }
-#headerlogom
-{
+
+#headerlogom {
     width: 100px;
     height: 45px;
 }
-#developpic
-{
+
+#developpic {
     width: 150px;
     height: 150px;
     border-radius: 50%;
 }
-#headerinfolinem
-{
+
+#headerinfolinem {
     font-family: Adobe Garamond Pro Bold;
-    background-color:darkslategray;
+    background-color: darkslategray;
     text-transform: uppercase;
     color: aliceblue;
 }
-#smsmsg
-{
+
+#smsmsg {
     display: none;
+}
+
+/*        Small Screen*/
+@media only screen and (max-width: 399px) {
+    #dcarousel {
+        margin-top: 100px;
+    }
+
+    #mframe iframe {
+        margin: 10px 0px;
+        width: 290px;
+        height: 180px;
+    }
+}
+
+/*--------Mobile-------*/
+@media only screen and (min-width: 400px) {
+    #dcarousel {
+        margin-top: 100px;
+    }
+
+    #mframe iframe {
+        width: 350px;
+        height: 180px;
+    }
+}
+
+/*-------IPad-----*/
+@media only screen and (min-width: 600px) {
+    #dcarousel {
+        margin-top: 105px;
+    }
+
+    #mframe iframe {
+        width: 700px;
+        height: 200px;
+    }
+}
+
+/*-----Tablet-----*/
+@media only screen and (min-width: 1024px) {
+    #dcarousel {
+        margin-top: 150px;
+    }
+
+    #mframe iframe {
+        width: 950px;
+        height: 250px;
+    }
+}
+
+/*----------Laptop-------------*/
+@media only screen and (min-width: 1200px) {
+    #dcarousel {
+        margin-top: 120px;
+    }
+
+    #mframe iframe {
+        width: 1450px;
+        height: 300px;
+    }
 }

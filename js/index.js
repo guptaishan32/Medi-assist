@@ -45,13 +45,13 @@ $(document).ready(function() {
             });
             $("#smobile").keyup(function() {
                 var val = this.value;
-                var r = /[7-9]{1}[0-9]{9}$/
+                var r = /[6-9]{1}[0-9]{9}$/
                 
                 $("#messagemobile").hide();
                 
                     if(val.length<=1)
                     {
-                        $("#messagemobile").html(" First digit must be from 7,8 or 9");
+                        $("#messagemobile").html("First digit must be from 6,7,8 or 9");
                         $("#messagemobile").css('color','grey');
                         $("#messagemobile").show();
                     }
@@ -60,6 +60,11 @@ $(document).ready(function() {
                         $("#messagemobile").show();
                         $("#messagemobile").css('color','grey');
                     }
+                else if (r.test(val) != true){
+                    $("#messagemobile").html(" NOT OK! ");
+                        $("#messagemobile").show();
+                        $("#messagemobile").css('color','red');
+                }
 
                 if (r.test(val) == true)
                     {   
